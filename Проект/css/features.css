@@ -1,0 +1,81 @@
+.skill{
+    
+    margin-left: 220px;
+    margin-top: 10px;
+     
+}
+
+
+.features {
+   
+   width: 700px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    
+}
+.skill h2 {
+    color: rgb(236, 112, 34);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.table {
+    width: 200px;
+    padding: 10px;
+
+}
+ 
+.table-name{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin: 20px 0;
+}
+
+.features-bar {
+    height: 15px;
+    background-color: rgba(35, 37, 35, 0.309);
+    border-radius: 3px;
+}
+
+.features-per {
+    height: 15px;
+    background: rgb(236, 112, 34);
+    border-radius: 3px;
+    animation: fillBars 8s 1;
+   
+}
+
+@keyframes fillBars {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.features-per::before {
+    content: attr(per);
+    position: absolute;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    background-color: aliceblue;
+    border-radius: 3px;
+    padding: 4px 6px;
+}
+
+.features-per::after {
+    content: "";
+    position: absolute;
+    background-color: aliceblue;
+    width: 5px;
+    height: 5px;
+    top: -15px;
+    right: 16px;
+    transform: rotate(45deg);
+    border-radius: 1px;
+}

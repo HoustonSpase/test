@@ -1,0 +1,39 @@
+.footer {
+
+    margin-left: 200px;
+    background: rgb(124, 172, 245);
+    justify-content: space-between;
+    padding: 30px;
+    border-top: 2px groove #80808052;
+    right: 0;
+    bottom: 0;
+
+    
+}
+.footer, footer ul {
+    display: flex;
+    align-items: center;
+}
+
+.footer ul {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 50px;
+}
+
+.footer ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.footer ul a:hover {
+    background-color: #c4c4c4;
+}
+.footer-copy{
+    font-size: 0.7em;
+}

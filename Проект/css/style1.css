@@ -1,0 +1,84 @@
+.paw {
+    width: 50px;
+    height: 50px;  
+  }
+  .header{
+    position: fixed;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background: rgb(124, 172, 245);;
+    width: 100vw;
+    height: 100px;
+    margin-left: 210px;
+    text-align: center;
+    font-size: 1rem;
+    top: 0;
+    padding-top: 10px;
+    box-shadow: 0px 0px 3px 3px rgb(129, 129, 127);
+    z-index: 1;
+    color: white;
+   
+  }
+  .header h1 {
+    padding: 10px;
+  }
+        
+    .cont{
+        margin: 140px 100px 0 300px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        border: 5px double rgb(124, 172, 245); 
+        padding: 10px;
+    
+    }
+    .cont img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50px;
+        border: 5px double rgb(124, 172, 245);  
+    
+    }
+  
+    .cat1{
+        height: 200px;
+        width: 400px;
+       text-align: center;
+      padding-right: 10px;
+      color: black;
+      font-size: 1.1rem;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+    }
+    
+    
+    .picture{
+        margin-left: 220px;
+        margin-top: 20px;
+        margin-right: 50px;
+        position: relative;
+        text-align: center;
+        color: black;
+        font-size: 1.2rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .picture img{
+        width: 100%;
+     
+    }
+    .top-left{
+        position: absolute;
+        top:20px;
+        left: 50%;
+        right: 5%;
+        
+        
+    }
+    .video{
+        margin-top: 50px;
+        margin-bottom: 30px;
+       text-align: center;
+    }
+    
